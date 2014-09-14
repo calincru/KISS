@@ -1,4 +1,5 @@
 # KISS
+TODO
 
 ## Features
 
@@ -11,7 +12,10 @@
 * [Google Analytics](http://www.google.com/analytics/).
 
 ## Demo
+TODO
 
 ## Installation
+TODO
 
 ## Configuration
+TODO
