@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    {{! Document Settings }}
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    {{! Page Meta }}
+    <title>{{meta_title}}</title>
+    <meta name="description" content="{{meta_description}}" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="{{asset "/favicon.png"}}">
+
+    {{! Styles'n'Scripts }}
+    <link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+
+    {{! Ghost outputs important style and meta data with this tag }}
+    {{ghost_head}}
+
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="{{asset "css/prism.css"}}" />
+
+    {{> google-analytics}}
+</head>
+
+<body class="{{body_class}}">
+
+    <div id="sidebar" {{#if @blog.cover}}style="background-image: url({{@blog.cover}})"{{/if}}>
+        <div id="sidebar-content" class="inner">
+            {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>{{/if}}
+            <h2 class="blog-title"><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
+            <h3 class="blog-description">{{@blog.description}}</h2>
+
+            <form id="search">
+                <input id="search-field" placeholder="Search"/>
+            </form>
+
+            <div id="sidebar-links">
+                <ul id="subscription-links">
+                    <li><a target="_blank" href="{{@blog.url}}/rss/"><i class="fa fa-rss"></i> Subscribe via RSS</a></li>
+                    <!-- No support yet
+                    <li><a target="_blank" href=" "><i class="fa fa-envelope"></i> Subscribe via email<a></li>
+                    -->
+                </ul>
+                <ul id="sidebar-internal">
+                    <!-- For 'About' and other pages -->
+                </ul>
+                <ul id="sidebar-external">
+                    {{> sidebar-external}}
+                </ul>
+            </div>
+
+            <footer class="site-footer">
+                <section class="copyright">{{> copyright}}</section>
+                <section class="poweredby">Proudly published with <a class="icon-ghost" href="https://ghost.org">Ghost</a></section>
+            </footer>
+        </div>
+    </div>
+
+    <main>
+        <section id="results"></section>
+        {{{body}}}
+    </main>
+
+    {{! Ghost outputs important scripts and data with this tag }}
+    {{ghost_foot}}
+
+    <script type="text/javascript" src="{{asset "js/jquery.fitvids.js"}}"></script>
+    <script type="text/javascript" src="{{asset "js/index.js"}}"></script>
+    <script type="text/javascript" src="{{asset "js/prism.js"}}"></script>
+
+    <script src="{{asset "js/jquery.ghostHunter.min.js"}}"></script>
+    <script>
+        $("#search-field").ghostHunter({
+            results : "#results",
+            onKeyUp : true,
+            zeroResultsInfo : false
+        });
+    </script>
+</body>
+
+</html>
