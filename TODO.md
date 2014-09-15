@@ -7,4 +7,4 @@
 - add and stylize **Spread the word** at the posts footer;
 - decide how Projects section will look like;
 - add copyright and 'proudly published with ghost..' in the sidebar's footer;
--
+
