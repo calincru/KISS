@@ -94,7 +94,7 @@ body {
   height: 100%;
   max-height: 100%;
   font-family: 'Roboto', serif;
-  font-size: 18px;
+  font-size: 1.2em;
   line-height: 1.6em;
   color: #3A4145;
 }
@@ -124,33 +124,33 @@ h4 a, h5 a, h6 a {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 2em;
   line-height: 1.2em;
   letter-spacing: -2px;
   text-indent: -3px;
 }
 
 h2 {
-  font-size: 35px;
+  font-size: 1.7em;
   line-height: 1.2em;
   letter-spacing: -1px;
   text-indent: -2px;
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 1.4em;
 }
 
 h4 {
-  font-size: 25px;
+  font-size: 1.3em;
 }
 
 h5 {
-  font-size: 1.5rem;
+  font-size: 1.2em;
 }
 
 h6 {
-  font-size: 1rem;
+  font-size: 1em;
 }
 
 p, ul, ol {
@@ -340,7 +340,7 @@ a:hover {
   padding: 20px 20px 20px 20px;
   text-align: center;
   color: #fff;
-  font-size: 15px;
+  font-size: 0.8em;
   background: #303538 no-repeat center center;
   background-size: cover;
   background-position: 20%;
@@ -354,7 +354,7 @@ a:hover {
   margin: 0;
 }
 .sidebar .description {
-  font-size: 90%;
+  font-size: 0.9em;
   font-style: italic;
   margin: 0;
   margin-bottom: 10px;
@@ -449,7 +449,7 @@ a:hover {
 .content .post .post-meta {
   display: inline-block;
   margin: 0 0 5px 0;
-  font-size: 15px;
+  font-size: 0.9em;
   color: #9EABB3;
 }
 .content .post .post-meta a {
