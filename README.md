@@ -20,5 +20,6 @@ cp -r KISS /path/to/ghost/content/themes
 ```
 Then follow the steps mentioned [here](http://support.ghost.org/edit-ghost-theme/).
 
-If you want to set it as your new ghost theme, click `Download ZIP` and then
-follow [these steps](http://support.ghost.org/upload-theme-ghostpro/).
+If you want to set it as your new ghost theme, click `Download ZIP` on the
+right of this page and then follow
+[these steps](http://support.ghost.org/upload-theme-ghostpro/).
