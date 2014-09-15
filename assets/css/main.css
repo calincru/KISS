@@ -435,7 +435,7 @@ a:hover {
 }
 .content .post .post-title {
   margin: 0;
-  font-variant: small-caps;
+  font-variant: caps;
 }
 .content .post .post-title a {
   text-decoration: none;
