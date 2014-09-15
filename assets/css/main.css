@@ -330,7 +330,7 @@ a {
   transition: color ease 0.3s;
 }
 a:hover {
-  color: #E77A27;
+  color: #6565f4;
 }
 
 .sidebar {
@@ -374,7 +374,7 @@ a:hover {
 .main-nav ul li a {
     margin: 0 auto .5em;
     display: block;
-    text-decoration: none;
+    text-decoration: none;us
     border: 1px solid #666;
     width: 70%;
     text-transform: uppercase;
@@ -392,7 +392,7 @@ a:hover {
   color: white;
 }
 .sidebar a:hover {
-  color: #E77A27;
+  color: #6565f4;
 }
 .sidebar .logo {
   display: block;
