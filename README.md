@@ -21,6 +21,7 @@ Demo: **TODO** WIP.
 If you are testing ghost locally:
 ```bash
 git clone git@github.com:calincru/KISS.git
+cd KISS
 npm install
 ./node_modules/.bin/gulp
 cp -r KISS /path/to/ghost/content/themes
