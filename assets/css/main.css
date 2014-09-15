@@ -472,7 +472,7 @@ a:hover {
   .sidebar {
     position: relative;
     width: 100%;
-    height: 250px;
+    height: 300px;
     padding: 20px 20px 20px 20px;
     text-align: center;
     color: #fff;
@@ -490,11 +490,37 @@ a:hover {
     height: 100px;
   }
   .sidebar .logo {
-    margin-top: 50px;
+    padding: 0;
+    margin: 0 auto;
+    margin-top: 0.5em;
+    width: 80px;
   }
-
   .content {
     margin-left: 0px;
+  }
+  .separator {
+    margin: 0 auto;
+    width: 60%;
+  }
+  .main-nav ul {
+    margin: 0;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
+  .main-nav ul li {
+    list-style: none;
+    display: inline-block;
+    width: 20%;
+  }
+  .main-nav ul li a {
+    border: none;
+    line-height: 1.3em;
+  }
+  .site-footer {
+    display: none;
+  }
+  .sidebar .social-icons {
+    margin-top: 0px;
   }
 }
 
