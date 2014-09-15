@@ -368,6 +368,7 @@ a:hover {
 }
 .sidebar .title {
   font-size: 30px;
+  font-variant: small-caps;
   color: white;
   text-decoration: none;
   margin: 0;
@@ -434,6 +435,7 @@ a:hover {
 }
 .content .post .post-title {
   margin: 0;
+  font-variant: small-caps;
 }
 .content .post .post-title a {
   text-decoration: none;
