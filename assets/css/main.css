@@ -492,11 +492,12 @@ a:hover {
    ========================================================================== */
 
 .site-footer {
-    position: relative;
-    margin-top: 7rem;
-    max-width: 800px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 0.7rem;
+    position: absolute;
+    bottom: 1em;
+    left: 1em;
+    right: 1em;
+    font-family: 'Open Sans',sans-serif;
+    font-size: .7rem;
     line-height: 1.4em;
     color: #e6e9eb;
 }
