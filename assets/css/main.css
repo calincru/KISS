@@ -509,3 +509,17 @@ a:hover {
 .site-footer a:hover {
     color: white;
 }
+
+.poweredby .ghost-link {
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.poweredby .ghost-link:hover {
+    text-decoration: none;
+}
+
+.poweredby .ghost-link:before {
+    font-size: 1rem;
+    margin-right: 0.2em;
+}
