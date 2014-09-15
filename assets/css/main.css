@@ -337,7 +337,7 @@ a:hover {
   position: fixed;
   width: 250px;
   height: 100%;
-  padding: 50px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
   text-align: center;
   color: #fff;
   font-size: 15px;
@@ -493,7 +493,7 @@ a:hover {
 
 .site-footer {
     position: relative;
-    margin-top: 5rem;
+    margin-top: 7rem;
     max-width: 800px;
     font-family: 'Open Sans', sans-serif;
     font-size: 0.7rem;
