@@ -396,8 +396,7 @@ a:hover {
 }
 .sidebar .logo {
   display: block;
-  width: 90%;
-  max-width: 250px;
+  width: 70%;
   height: auto;
   background-size: contain;
   margin: 0 auto 20px auto;
