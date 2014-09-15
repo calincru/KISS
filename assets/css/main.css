@@ -347,7 +347,7 @@ a:hover {
   -webkit-transform: translateZ(0);
 }
 .sidebar .title {
-  font-size: 30px;
+  font-size: 2em;
   font-variant: small-caps;
   color: white;
   text-decoration: none;
@@ -374,7 +374,7 @@ a:hover {
 .main-nav ul li a {
     margin: 0 auto .5em;
     display: block;
-    text-decoration: none;us
+    text-decoration: none;
     border: 1px solid #666;
     width: 70%;
     text-transform: uppercase;
@@ -435,6 +435,9 @@ a:hover {
   border-bottom: #EBF2F6 1px solid;
   word-break: break-word;
   hyphens: auto;
+}
+.post-content {
+  margin-bottom: 3em;
 }
 .content .post .post-title {
   margin: 0;
