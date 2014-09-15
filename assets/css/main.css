@@ -370,8 +370,12 @@ a:hover {
   font-size: 30px;
   color: white;
   text-decoration: none;
+  margin: 0;
 }
 .sidebar .description {
+  font-size: 90%;
+  font-style: italic;
+  margin: 0;
   margin-bottom: 10px;
 }
 .sidebar .footer {
@@ -387,11 +391,12 @@ a:hover {
 }
 .sidebar .logo {
   display: block;
-  width: 100%;
+  width: 90%;
   max-width: 250px;
   height: auto;
   background-size: contain;
   margin: 0 auto 20px auto;
+  border-radius: 50%;
   background: no-repeat;
 }
 .sidebar .circle {
@@ -484,4 +489,19 @@ a:hover {
   .content {
     margin-left: 0px;
   }
+}
+
+.pagination {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+    margin: 4rem 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3rem;
+    color: #9EABB3;
+    text-align: center;
+}
+
+.pagination a {
+    color: #9EABB3;
 }
