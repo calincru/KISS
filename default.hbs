@@ -25,8 +25,7 @@
     <link rel="shortcut icon" href="{{asset "favicon.ico"}}">
 
     {{! Styles }}
-    <link rel="stylesheet" type="text/css" href="{{asset "/css/normalize.css"}}" />
-    <link rel="stylesheet" type="text/css" href="{{asset "/css/main.css"}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset "build/all.min.css"}}" />
 
     {{! Google Analytics }}
     {{> analytics}}
@@ -67,6 +66,9 @@
 
     {{! Ghost outputs important scripts and data with this tag }}
     {{!ghost_foot}}
+
+    {{! JS}}
+    <script type="text/javascript" src="{{asset "build/all.min.js"}}"></script>
 
 </body>
 </html>
