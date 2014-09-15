@@ -1,6 +1,8 @@
-# KISS
+#KISS
 KISS is a minimalistic [Ghost](https://ghost.org/) theme inspired by
 [Phantom](https://github.com/Bartinger/phantom).
+
+Demo: **TODO** WIP.
 
 ## Features
 - Minimalistic & responsive
