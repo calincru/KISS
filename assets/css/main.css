@@ -486,3 +486,26 @@ a:hover {
 .pagination a {
     color: #9EABB3;
 }
+
+/* ==========================================================================
+   9. Footer - The bottom of every page
+   ========================================================================== */
+
+.site-footer {
+    position: relative;
+    margin-top: 5rem;
+    max-width: 800px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.7rem;
+    line-height: 1.4em;
+    color: #e6e9eb;
+}
+
+.site-footer a {
+    color: #e6e9eb;
+    text-decoration: none;
+}
+
+.site-footer a:hover {
+    color: white;
+}
