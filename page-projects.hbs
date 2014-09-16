@@ -6,8 +6,11 @@
 <main role="main">
     <article class="{{post_class}}" role="article" itemscope itemtype="http://schema.org/Article">
 
-        <h1 class="projects">Projects</h1>
-        <p>It contains some of my side projects. TODO</p>
+        <h1 class="post-title">Projects</h1>
+
+        {{! Here go the static pages. Make sure you modify the links of the pages and their titles. }}
+        <p><span class="project_title" itemprop="headline"><a href="{{@blog.url}}/test-project-page">Test Project Page</a></span></p>
+        <p><span class="project_title" itemprop="headline"><a href="{{@blog.url}}/test-project-page2">Test Project Page 2</a></span></p>
 
     </article>
 </main>
