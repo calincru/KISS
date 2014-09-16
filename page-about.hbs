@@ -1,0 +1,17 @@
+{{!< default}}
+
+<main role="main">
+    <article class="{{post_class}}">
+
+        {{! In the ABOUT page display only the title and the content}}
+        {{#post}}
+
+        <h1 class="post-title">{{{title}}}</h1>
+        <section class="post-content">
+            {{content}}
+        </section>
+
+        {{/post}}
+
+    </article>
+</main>
