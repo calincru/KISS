@@ -391,10 +391,6 @@ a:hover {
   margin: 0;
 }
 
-.sidebar .title a:hover {
-  color: white;
-}
-
 .sidebar .description {
   font-size: 0.9em;
   font-style: italic;
