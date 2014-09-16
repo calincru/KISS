@@ -377,10 +377,18 @@ a:hover {
 
 .sidebar .social-icons {
   margin-top: 10px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  /* background: red; */
+  display: inline-block;
 }
 
 .sidebar .icon {
   font-size: 18px;
+  display: inline-block;
+  /* border: 1px solid white; */
 }
 
 .sidebar .title {
