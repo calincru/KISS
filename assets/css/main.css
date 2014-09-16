@@ -453,6 +453,7 @@ a:hover {
 }
 
 .post-content img {
+  display: block;
   max-width: 100%;
 }
 
