@@ -23,7 +23,8 @@ gulp.task('scripts', function() {
     // Minify and copy all JavaScript
     return streamqueue({objectMode: true},
         gulp.src('assets/js/prism.js'),
-        gulp.src('assets/js/index.js')
+        gulp.src('assets/js/index.js'),
+        gulp.src('assets/js/jquery.fitvids.js')
     )
         .pipe(uglify())
         .pipe(concat('all.min.js'))
