@@ -450,6 +450,10 @@ a:hover {
   margin-bottom: 3em;
 }
 
+.post-content img {
+  width: 100%;
+}
+
 .content .post .post-title {
   margin: 0;
 }
