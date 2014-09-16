@@ -522,9 +522,9 @@ display: block;
 
 .pagination {
   position: relative;
-  width: 80%;
+  width: 100%;
   max-width: 800px;
-  margin: 4rem 0px;
+  margin: 3em 0px;
   font-family: 'Open Sans', sans-serif;
   font-size: 0.9rem;
   color: #9EABB3;
