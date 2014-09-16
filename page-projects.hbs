@@ -6,7 +6,14 @@
 <main role="main">
     <article class="{{post_class}}" role="article" itemscope itemtype="http://schema.org/Article">
 
-        <h1 class="post-title">Projects</h1>
+        {{#post}}
+        <h1 class="post-title">{{title}}</h1>
+
+        {{! Here goes the description of the projects static page. The content of the post is used for this. }}
+        <section class="post-content">
+            {{content}}
+        </section>
+        {{/post}}
 
         {{! Here go the static pages. Make sure you modify the links of the pages and their titles. }}
         <p><span class="project_title" itemprop="headline"><a href="{{@blog.url}}/test-project-page">Test Project Page</a></span></p>
