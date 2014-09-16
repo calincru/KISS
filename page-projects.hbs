@@ -10,14 +10,21 @@
         <h1 class="post-title">{{title}}</h1>
 
         {{! Here goes the description of the projects static page. The content of the post is used for this. }}
-        <section class="post-content">
+        <section class="post-content project-description">
             {{content}}
         </section>
         {{/post}}
 
         {{! Here go the static pages. Make sure you modify the links of the pages and their titles. }}
-        <p><span class="project_title" itemprop="headline"><a href="{{@blog.url}}/test-project-page">Test Project Page</a></span></p>
-        <p><span class="project_title" itemprop="headline"><a href="{{@blog.url}}/test-project-page2">Test Project Page 2</a></span></p>
-
+        <p class="project-page">
+            <span class="project-title" itemprop="headline">
+                <a href="{{@blog.url}}/test-project-page">Test Project Page</a>
+            </span>
+        </p>
+        <p class="project-page">
+            <span class="project-title" itemprop="headline">
+                <a href="{{@blog.url}}/test-project-page2">Test Project Page 2</a>
+            </span>
+        </p>
     </article>
 </main>
