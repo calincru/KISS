@@ -1,16 +1,19 @@
 @charset "UTF-8";
+
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
   src: local("Open Sans"), local("OpenSans"), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format("woff");
 }
+
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;
   src: local("Open Sans Bold"), local("OpenSans-Bold"), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff) format("woff");
 }
+
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
@@ -28,18 +31,8 @@
   font-weight: normal;
   font-style: normal;
 }
-/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
-/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
-/*
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  @font-face {
-    font-family: 'kiss';
-    src: url('../font/kiss.svg?15316616#kiss') format('svg');
-  }
-}
-*/
 
- [class^="icon-"]:before, [class*=" icon-"]:before {
+[class^="icon-"]:before, [class*=" icon-"]:before {
   font-family: "kiss";
   font-style: normal;
   font-weight: normal;
@@ -64,7 +57,7 @@
   margin-left: .2em;
 
   /* you can be more comfortable with increased icons size */
-  /* font-size: 120%; */
+  font-size: 110%;
 
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
@@ -118,6 +111,7 @@ h4, h5, h6 {
   margin-top: 0;
   font-family: 'Open Sans', sans-serif;
 }
+
 h1 a, h2 a, h3 a,
 h4 a, h5 a, h6 a {
   text-decoration: none;
@@ -346,6 +340,7 @@ a:hover {
   background-position: 20%;
   -webkit-transform: translateZ(0);
 }
+
 .sidebar .title {
   font-size: 2em;
   font-variant: small-caps;
@@ -353,24 +348,29 @@ a:hover {
   text-decoration: none;
   margin: 0;
 }
+
 .sidebar .description {
   font-size: 0.9em;
   font-style: italic;
   margin: 0;
   margin-bottom: 10px;
 }
+
 .sidebar .footer {
   position: relative;
   bottom: 0px;
   font-size: 12px;
 }
+
 .main-nav ul {
     padding-left: 0; 
 }
+
 .main-nav ul li {
     list-style: none;
     width: 100%;
 }
+
 .main-nav ul li a {
     margin: 0 auto .5em;
     display: block;
@@ -380,20 +380,25 @@ a:hover {
     text-transform: uppercase;
     font-size: 0.8em;
 }
+
 .main-nav ul li a:hover {
     border-color: #6565f4;
     color: #6565f4;
     transition: 0.2s all;
 }
+
 .main-nav ul li:last-child {
     margin-bottom: 0;
 }
+
 .sidebar a {
   color: white;
 }
+
 .sidebar a:hover {
   color: #6565f4;
 }
+
 .sidebar .logo {
   display: block;
   width: 70%;
@@ -403,6 +408,7 @@ a:hover {
   border-radius: 50%;
   background: no-repeat;
 }
+
 .sidebar .circle {
   display: block;
   width: 130px;
@@ -417,9 +423,11 @@ a:hover {
   border: 5px solid #eee;
   box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
 }
+
 .sidebar .social-icons {
   margin-top: 10px;
 }
+
 .sidebar .icon {
   font-size: 18px;
 }
@@ -429,6 +437,7 @@ a:hover {
   padding: 50px;
   max-width: 800px;
 }
+
 .content .post {
   margin-bottom: 50px;
   padding-bottom: 20px;
@@ -436,29 +445,36 @@ a:hover {
   word-break: break-word;
   hyphens: auto;
 }
+
 .post-content {
   margin-bottom: 3em;
 }
+
 .content .post .post-title {
   margin: 0;
 }
+
 .content .post .post-title a {
   text-decoration: none;
 }
+
 .content .post .post-excerpt p {
   margin: 1.6rem 0 0 0;
   line-height: 1.6em;
 }
+
 .content .post .post-meta {
   display: inline-block;
   margin: 0 0 5px 0;
   font-size: 0.9em;
   color: #9EABB3;
 }
+
 .content .post .post-meta a {
   color: #9EABB3;
   text-decoration: none;
 }
+
 .content .post .post-meta a:hover {
   text-decoration: underline;
 }
@@ -482,97 +498,104 @@ a:hover {
     background-position: 20%;
     -webkit-transform: translateZ(0);
   }
+
   .sidebar .description {
     display: none;
   }
+
   .sidebar .circle {
     width: 100px;
     height: 100px;
   }
+
   .sidebar .logo {
     padding: 0;
     margin: 0 auto;
     margin-top: 0.5em;
     width: 80px;
   }
+
   .content {
     margin-left: 0px;
   }
+
   .separator {
     margin: 0 auto;
     width: 60%;
   }
+
   .main-nav ul {
     margin: 0;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
   }
+
   .main-nav ul li {
     list-style: none;
     display: inline-block;
     width: 20%;
   }
+
   .main-nav ul li a {
     border: none;
     line-height: 1.3em;
   }
+
   .site-footer {
     display: none;
   }
+
   .sidebar .social-icons {
     margin-top: 0px;
   }
 }
 
 .pagination {
-    position: relative;
-    width: 80%;
-    max-width: 800px;
-    margin: 4rem 0px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 0.9rem;
-    color: #9EABB3;
-    text-align: center;
+  position: relative;
+  width: 80%;
+  max-width: 800px;
+  margin: 4rem 0px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9rem;
+  color: #9EABB3;
+  text-align: center;
 }
 
 .pagination a {
-    color: #9EABB3;
+  color: #9EABB3;
 }
 
-/* ==========================================================================
-   9. Footer - The bottom of every page
-   ========================================================================== */
-
 .site-footer {
-    position: absolute;
-    bottom: 1em;
-    left: 1em;
-    right: 1em;
-    font-family: 'Open Sans',sans-serif;
-    font-size: .7rem;
-    line-height: 1.4em;
-    color: #e6e9eb;
+  position: absolute;
+  bottom: 1em;
+  left: 1em;
+  right: 1em;
+  font-family: 'Open Sans',sans-serif;
+  font-size: .7rem;
+  line-height: 1.4em;
+  color: #e6e9eb;
 }
 
 .site-footer a {
-    color: #e6e9eb;
-    text-decoration: none;
+  color: #e6e9eb;
+  text-decoration: none;
 }
 
 .site-footer a:hover {
-    color: white;
+  color: white;
 }
 
 .poweredby .ghost-link {
-    font-weight: 700;
-    text-decoration: none;
+  font-weight: 700;
+  text-decoration: none;
 }
 
 .poweredby .ghost-link:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .poweredby .ghost-link:before {
-    font-size: 1rem;
-    margin-right: 0.2em;
+  font-size: 1rem;
+  margin-right: 0.2em;
 }
+
