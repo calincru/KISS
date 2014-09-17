@@ -31,3 +31,11 @@ Then follow the steps mentioned [here](http://support.ghost.org/edit-ghost-theme
 If you want to set it as your new ghost theme, click `Download ZIP` on the
 right of this page and then follow
 [these steps](http://support.ghost.org/upload-theme-ghostpro/).
+
+**Note:** Make sure you modify all my personal stuff, such as:
+- Social links
+- Google Analytics tracking code ([sign
+  up](https://accounts.google.com/ServiceLogin?service=analytics&userexp=signup&hl=en)
+  and they will provide the whole new JS script)
+- Twitter handle in default.hbs
+- Static pages in page-projects.hbs
