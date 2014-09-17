@@ -3,8 +3,12 @@
 
 <article class="{{post_class}}" role="article" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <span class="post-meta"><time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMM YYYY"}}</time> {{#if tags}}on {{tags separator=" | "}}{{/if}}</span>
-        <h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>
+        <span class="post-meta">
+            <time datetime="{{date format='YYYY-MM-DD'}}" itemprop="datePublished">{{date format="DD MMM YYYY"}}</time>
+            {{#if tags}}on {{tags separator=" | "}}{{/if}}
+        </span>
+
+        <h2 class="post-title" itemprop="headline"><a href="{{url}}">{{{title}}}</a></h2>
     </header>
 
     <section class="post-excerpt">
