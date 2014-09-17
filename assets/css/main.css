@@ -450,8 +450,7 @@ a:hover {
 }
 
 .content .post {
-  margin-bottom: 20px;
-  padding-bottom: 0.5em;
+  padding-bottom: 1em;
   border-bottom: #EBF2F6 1px solid;
   word-break: break-word;
   hyphens: auto;
@@ -569,6 +568,27 @@ display: block;
   margin-right: 0.2em;
 }
 
+.post-share {
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+.share {
+  text-align: right !important;
+}
+
+.share ul {
+  margin-bottom: 3em;
+  margin-top: 0;
+}
+
+.share li {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 1.1rem;
+  font-size: 1.3em;
+}
+
 /* Media Queries */
 @media (min-width: 800px) and (max-height: 520px) {
     .site-footer {
@@ -577,7 +597,7 @@ display: block;
         left: 0;
         right: 0;
         margin-top: 5em;
-    }   
+    }
 
     .sidebar .logo {
       width: 40%;
