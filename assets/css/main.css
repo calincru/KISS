@@ -452,6 +452,7 @@ a:hover {
 
 .content .post {
   padding-bottom: 1em;
+  margin-top: 1em;
   border-bottom: #EBF2F6 1px solid;
   word-break: break-word;
   hyphens: auto;
@@ -481,7 +482,6 @@ a:hover {
 
 .content .post .post-meta {
   display: inline-block;
-  margin-top: 1em;
   font-size: 0.8em;
   color: #9EABB3;
 }
