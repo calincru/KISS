@@ -3,4 +3,3 @@
 - modify verification meta tag;
 - validate URL for twitter: https://cards-dev.twitter.com/validator;
 - remove what is specific to my page (especially in page-projects);
-- add favicon;

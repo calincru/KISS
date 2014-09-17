@@ -70,6 +70,7 @@
 .icon-twitter:before { content: '\e804'; }
 .icon-rss:before { content: '\e805'; }
 .icon-mail:before { content: '\e806'; }
+.icon-tag:before { content: '\e807'; }
 
 *, *:before, *:after {
   -moz-box-sizing: border-box;
@@ -480,7 +481,7 @@ a:hover {
 
 .content .post .post-meta {
   display: inline-block;
-  /* margin: 0 0 5px 0; */
+  margin-top: 1em;
   font-size: 0.8em;
   color: #9EABB3;
 }
@@ -531,7 +532,7 @@ display: block;
 }
 
 .pagination a {
-  color: #9EABB3;
+  color: #6565f4;
 }
 
 .site-footer {
@@ -587,6 +588,17 @@ display: block;
   display: inline-block;
   margin-left: 1.1rem;
   font-size: 1.3em;
+}
+
+.tag-archive-header {
+  margin: 1em 0 1em 0;
+  text-align: left;
+  max-width: 800px;
+  border-bottom: 1px solid #EBF2F6;
+}
+
+.tag-archive-header i {
+  font-size: 80%;
 }
 
 /* Media Queries */

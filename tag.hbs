@@ -1,0 +1,17 @@
+{{!< default}}
+{{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
+
+{{! The main content area on the homepage }}
+<main role="main">
+
+    <header class="tag-archive-header">
+        <h3><i class="icon icon-tag"></i>{{tag.name}}</h4>
+    </header>
+
+    {{! The tag below includes the post loop - partials/loop.hbs }}
+    {{> loop}}
+
+    {{!! After all posts, we have the previous/next pagination links }}
+    {{pagination}}
+
+</main>
