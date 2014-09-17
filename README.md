@@ -2,7 +2,7 @@
 KISS is a minimalistic [Ghost](https://ghost.org/) theme inspired by
 [Phantom](https://github.com/Bartinger/phantom).
 
-Demo: **TODO** WIP.
+You can see it live on [my blog](http://calincruceru.net).
 
 ## Features
 - Minimalistic & responsive
@@ -36,6 +36,6 @@ right of this page and then follow
 - Social links
 - Google Analytics tracking code ([sign
   up](https://accounts.google.com/ServiceLogin?service=analytics&userexp=signup&hl=en)
-  and they will provide the whole new JS script)
+  and they will provide the whole new JS code)
 - Twitter handle in default.hbs
 - Static pages in page-projects.hbs
