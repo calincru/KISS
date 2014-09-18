@@ -46,4 +46,4 @@ Desktop look
 ![Desktop](http://i.imgur.com/ZFrEspa.jpg)
 
 Mobile look
-![Mobile](http://i.imgur.com/WUZCboI)
+![Mobile](http://i.imgur.com/WUZCboI.jpg)
