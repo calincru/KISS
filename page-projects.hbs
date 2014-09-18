@@ -10,21 +10,36 @@
         <h1 class="post-title">{{title}}</h1>
 
         {{! Here goes the description of the projects static page. The content of the post is used for this. }}
-        <section class="post-content project-description">
+        <section class="post-content projects-content">
             {{content}}
         </section>
 
         {{! Here go the static pages. Make sure you modify the links of the pages and their titles. }}
         <p class="project-page">
             <span class="project-title" itemprop="headline">
-                <a href="{{@blog.url}}/test-project-page">Test Project Page</a>
+                <a href="#">
+                    <span class="project-name">Marble</span>
+                    <span class="project-description">a Qt based application</span>
+                </a>
             </span>
         </p>
         <p class="project-page">
             <span class="project-title" itemprop="headline">
-                <a href="{{@blog.url}}/test-project-page2">Test Project Page 2</a>
+                <a href="#">
+                    <span class="project-name">Syntax Highlighter</span>
+                    <span class="project-description">a Clang's LibTooling based CLI application</span>
+                </a>
             </span>
         </p>
+        <p class="project-page">
+            <span class="project-title" itemprop="headline">
+                <a href="#">
+                    <span class="project-name">KISS</span>
+                    <span class="project-description">a Ghost (Handlebars) blog theme</span>
+                </a>
+            </span>
+        </p>
+
 
          <footer class="post-footer">
             <section class="share">

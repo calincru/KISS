@@ -497,22 +497,30 @@ a:hover {
 }
 
 /* Project Page */
-.project-description {
+.projects-content {
   margin-bottom: 2em;
 }
 
 .project-page {
-margin: 0.5em 0 0.5em 0;
+  margin: 0.5em 0 0.5em 0;
 }
 
 .project-title a {
-text-decoration: none;
-text-transform: uppercase;
-font-size: 0.9em;
-font-weight: bold;
-border-bottom: 1px dashed rgba(0, 0, 0, 0.3);
-height: 2em;
-display: block;
+  text-decoration: none;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.3);
+  height: 2em;
+  display: block;
+}
+
+.project-name {
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.project-description {
+  margin-left: 0.6em;
+  font-size: smaller;
 }
 /* End of Project Page */
 
@@ -601,6 +609,8 @@ display: block;
 .tag-archive-header i {
   font-size: 80%;
 }
+
+
 
 /* Media Queries */
 @media (min-width: 800px) and (max-height: 520px) {
