@@ -40,10 +40,11 @@ right of this page and then follow
 - Twitter handle in default.hbs
 - Static pages in page-projects.hbs
 
-### Demo
+## Demo
 
-Desktop look
+**Desktop look**
 ![Desktop](http://i.imgur.com/ZFrEspa.jpg)
 
-Mobile look
+**Mobile look**
 ![Mobile](http://i.imgur.com/WUZCboI.jpg)
+
