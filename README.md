@@ -43,8 +43,10 @@ right of this page and then follow
 ## Demo
 
 **Desktop look**
+
 ![Desktop](http://i.imgur.com/ZFrEspa.jpg)
 
 **Mobile look**
+
 ![Mobile](http://i.imgur.com/WUZCboI.jpg)
 
