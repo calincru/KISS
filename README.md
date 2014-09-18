@@ -39,3 +39,11 @@ right of this page and then follow
   and they will provide the whole new JS code)
 - Twitter handle in default.hbs
 - Static pages in page-projects.hbs
+
+### Demo
+
+Desktop look
+![Desktop](http://i.imgur.com/ZFrEspa.jpg)
+
+Mobile look
+![Mobile](http://i.imgur.com/WUZCboI)
