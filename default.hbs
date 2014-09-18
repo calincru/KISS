@@ -42,7 +42,7 @@
     <link rel="stylesheet" type="text/css" href="{{asset "build/all.min.css"}}" />
 
     {{! Google Analytics }}
-    {{> analytics}}
+    {{> "analytics"}}
 
     {{! Twitter card }}
     <meta property="twitter:card" content="summary" />
@@ -72,7 +72,7 @@
 </head>
 <body class="{{body_class}}">
 
-    {{> sidebar}}
+    {{> "sidebar"}}
 
     <div class="content">
         {{{body}}}
