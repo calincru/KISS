@@ -13,7 +13,6 @@
         <section class="post-content project-description">
             {{content}}
         </section>
-        {{/post}}
 
         {{! Here go the static pages. Make sure you modify the links of the pages and their titles. }}
         <p class="project-page">
@@ -26,6 +25,27 @@
                 <a href="{{@blog.url}}/test-project-page2">Test Project Page 2</a>
             </span>
         </p>
+
+         <footer class="post-footer">
+            <section class="share">
+                <h4 class="post-share">Share this page</h4>
+                <ul>
+                    <li><a href="https://plus.google.com/share?url={{url absolute="true"}}"
+                           onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                        <i class="icon icon-gplus"></i>
+                    </a></li>
+                    <li><a href="https://twitter.com/share?text={{encode title}}&amp;url={{url absolute="true"}}"
+                           onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                        <i class="icon icon-twitter"></i>
+                    </a></li>
+                    <li><a href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}"
+                           onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                        <i class="icon icon-facebook"></i>
+                    </a></li>
+                </ul>
+           </section>
+        </footer>
+        {{/post}}
 
     </article>
 </main>

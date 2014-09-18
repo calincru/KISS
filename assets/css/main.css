@@ -458,10 +458,6 @@ a:hover {
   hyphens: auto;
 }
 
-.post-content {
-  margin-bottom: 3em;
-}
-
 .post-content img {
   display: block;
   max-width: 100%;
@@ -567,6 +563,10 @@ display: block;
 .poweredby .ghost-link:before {
   font-size: 1rem;
   margin-right: 0.2em;
+}
+
+.post-footer {
+  margin-top: 3em;
 }
 
 .post-share {
