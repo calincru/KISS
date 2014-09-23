@@ -560,8 +560,9 @@ a:hover {
 }
 
 .poweredby .ghost-link {
-  font-weight: 700;
+  font-weight: bolder;
   text-decoration: none;
+  font-size: 1.1em;
 }
 
 .poweredby .ghost-link:hover {
