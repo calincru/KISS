@@ -1,17 +1,18 @@
 @charset "UTF-8";
 
+/*
 @font-face {
-  font-family: 'Open Sans';
+  font-family: 'Lora';
   font-style: normal;
   font-weight: 400;
-  src: local("Open Sans"), local("OpenSans"), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format("woff");
+  src: local("Lora"), local("OpenSans"), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format("woff");
 }
 
 @font-face {
-  font-family: 'Open Sans';
+  font-family: 'Lora';
   font-style: normal;
   font-weight: 700;
-  src: local("Open Sans Bold"), local("OpenSans-Bold"), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff) format("woff");
+  src: local("Lora Bold"), local("OpenSans-Bold"), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff) format("woff");
 }
 
 @font-face {
@@ -20,6 +21,7 @@
   font-weight: 400;
   src: local("Roboto Regular"), local("Roboto-Regular"), url(http://themes.googleusercontent.com/static/fonts/roboto/v10/2UX7WLTfW3W8TclTUvlFyQ.woff) format("woff");
 }
+*/
 
 @font-face {
   font-family: 'kiss';
@@ -87,7 +89,7 @@ html {
 body {
   height: 100%;
   max-height: 100%;
-  font-family: 'Roboto', serif;
+  font-family: 'Lora', serif;
   font-size: 1.25em;
   line-height: 1.45em;
   color: #3A4145;
@@ -110,7 +112,7 @@ h4, h5, h6 {
   text-rendering: optimizeLegibility;
   line-height: 1;
   margin-top: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lora', serif;
 }
 
 h1 a, h2 a, h3 a,
@@ -121,14 +123,12 @@ h4 a, h5 a, h6 a {
 h1 {
   font-size: 2em;
   line-height: 1.2em;
-  letter-spacing: -2px;
   text-indent: -3px;
 }
 
 h2 {
   font-size: 1.7em;
   line-height: 1.2em;
-  letter-spacing: -1px;
   text-indent: -2px;
 }
 
@@ -529,7 +529,7 @@ a:hover {
   width: 100%;
   max-width: 800px;
   margin: 3em 0px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lora', serif;
   font-size: 0.9rem;
   color: #9EABB3;
   text-align: center;
@@ -544,7 +544,7 @@ a:hover {
   bottom: 1em;
   left: 1em;
   right: 1em;
-  font-family: 'Open Sans',sans-serif;
+  font-family: 'Lora', serif;
   font-size: .7rem;
   line-height: 1.4em;
   color: #e6e9eb;
