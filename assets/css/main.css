@@ -461,6 +461,8 @@ a:hover {
 .post-content img {
   display: block;
   max-width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .content .post .post-title {
