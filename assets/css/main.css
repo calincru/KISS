@@ -461,6 +461,8 @@ a:hover {
 .post-content img {
   display: block;
   max-width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .content .post .post-title {
@@ -507,9 +509,8 @@ a:hover {
 
 .project-title a {
   text-decoration: none;
-  border-bottom: 1px dashed rgba(0, 0, 0, 0.3);
-  height: 2em;
   display: block;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.3);
 }
 
 .project-name {

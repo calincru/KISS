@@ -9,7 +9,7 @@
     "gulp-minify-css": "^0.3.7",
     "gulp-sass": "^0.7.2",
     "gulp-uglify": "^0.3.1",
-    "streamqueue": "^0.1.1" 
+    "streamqueue": "^0.1.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -23,5 +23,8 @@
     "Blog"
   ],
   "author": "Calin Cruceru",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "meow": "^3.0.0"
+  }
 }
