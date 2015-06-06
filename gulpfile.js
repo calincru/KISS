@@ -8,8 +8,8 @@ var streamqueue  = require('streamqueue');
 
 
 var paths = {
-    scripts: ['assets/js/*/*.js'],
-    css: ['assets/css/*/*.css']
+    scripts: ['assets/js/*.js'],
+    css: ['assets/css/*.css']
 };
 
 // Not all tasks need to use streams
