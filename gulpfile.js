@@ -39,7 +39,11 @@ gulp.task('minify-css', function() {
     )
         .pipe(minifyCSS())
         .pipe(concat('all.min.css'))
-        .pipe(gulp.dest('assets/build'));
+        .pipe(gulp.dest('assets/build'))
+        .once('end', function(){
+            console.log('✓ Done!');
+            process.exit();
+        });
 });
 
 // Rerun the task when a file changes
